@@ -428,3 +428,9 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
+.portfolio-img img.img-fluid {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
