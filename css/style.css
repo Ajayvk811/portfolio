@@ -314,7 +314,16 @@
     margin: 0 !important;
     background-color: transparent;
 }
-
+.portfolio-btn a.btn:first-child .fa-eye {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 60px;
+    font-size: 20px;
+}
 /*** Team ***/
 .team-item img {
     transition: .5s;
