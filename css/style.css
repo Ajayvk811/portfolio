@@ -462,6 +462,18 @@
     object-fit: cover;
     object-position: top;
 }
+.btn-social {
+    width: 58px;
+    height: 58px;
+    padding: 5px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-social img {
+    max-width: 34px;
+    margin: auto;
+}
 @media (max-width: 767px) {
     #about {
         overflow: hidden;
